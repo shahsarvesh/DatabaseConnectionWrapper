@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 import logger
 
-logging = logger.get_logger('logger', 'log.log')
+logging = logger.get_logger(__name__, 'log.log')
 
 class DataBaseConnection():
     """

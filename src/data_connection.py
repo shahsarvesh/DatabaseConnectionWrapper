@@ -38,6 +38,7 @@ class DataBaseConnection():
         Returns a list of tables from SQL DB
     """
 
+
     # Initialize contructor 
     def __init__(self, database_name):
         self.database_name = database_name
@@ -118,6 +119,7 @@ class DataBaseConnection():
             # Send the data to SQL
             data.to_sql(table_name, con = self.conn, if_exists = 'append')
             self.conn.set_trace_callback(logging.info)
+            logging.info('Successfully created a table in {}'.format(self.database_name))
             return 0
         except:
             logging.exception('Something went wrong')
@@ -161,6 +163,7 @@ def main():
     database_name = cur_dir+'/../data/test_db.db'
     data_conn = DataBaseConnection(database_name)
 
+    print(data_conn)
     # # Get list of exisiting data in database
     print(data_conn.get_tables_from_data())
 

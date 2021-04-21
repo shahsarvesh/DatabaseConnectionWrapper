@@ -1,0 +1,422 @@
+{"time": "2021-04-21 15:08:36","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:10:04","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:10:04","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:11:36","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:11:36","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "'SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'BEGIN '"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "'INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "'COMMIT'"}
+{"time": "2021-04-21 15:12:32","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "'select * from sample_data where A=1'"}
+{"time": "2021-04-21 15:12:32","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "'select * from sample_data where A=1'"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:18:31","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:18:31","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:18:40","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:18:40","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:19:10","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:10","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:19:24","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:24","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:19:29","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:19:29","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:22:33","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:22:33","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:22:33","file_name": "test_db.py", "function_name": "execute_query", "line_no": "90", "level" : "INFO", "message": "Queried (67, 3) data from test_db.db"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:23:15","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:23:15","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:23:15","file_name": "test_db.py", "function_name": "execute_query", "line_no": "90", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = "}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:23:27","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:23:27","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:23:27","file_name": "test_db.py", "function_name": "execute_query", "line_no": "90", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = (69, 3)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:26:39","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:27:22","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:27:53","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:28:09","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:28:09","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "71", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 60, in execute_raw_query
+    self.cursor.execute(query)
+sqlite3.OperationalError: no such table: d
+{"time": "2021-04-21 15:28:09","file_name": "test_db.py", "function_name": "execute_query", "line_no": "96", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1681, in execute
+    cur.execute(*args, **kwargs)
+sqlite3.OperationalError: no such table: d
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 90, in execute_query
+    df = pd.read_sql_query(query, self.conn, index_col='index')
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 377, in read_sql_query
+    return pandas_sql.read_query(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1727, in read_query
+    cursor = self.execute(*args)
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1693, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql 'select * from d where A=1': no such table: d
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:30:40","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:30:40","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "71", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 60, in execute_raw_query
+    self.cursor.execute(query)
+sqlite3.OperationalError: no such table: d
+{"time": "2021-04-21 15:30:40","file_name": "test_db.py", "function_name": "execute_query", "line_no": "96", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1681, in execute
+    cur.execute(*args, **kwargs)
+sqlite3.OperationalError: no such table: d
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 90, in execute_query
+    df = pd.read_sql_query(query, self.conn, index_col='index')
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 377, in read_sql_query
+    return pandas_sql.read_query(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1727, in read_query
+    cursor = self.execute(*args)
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1693, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql 'select * from d where A=1': no such table: d
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:30:48","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:30:48","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "71", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 60, in execute_raw_query
+    self.cursor.execute(query)
+sqlite3.OperationalError: no such table: d
+{"time": "2021-04-21 15:30:48","file_name": "test_db.py", "function_name": "execute_query", "line_no": "96", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1681, in execute
+    cur.execute(*args, **kwargs)
+sqlite3.OperationalError: no such table: d
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 90, in execute_query
+    df = pd.read_sql_query(query, self.conn, index_col='index')
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 377, in read_sql_query
+    return pandas_sql.read_query(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1727, in read_query
+    cursor = self.execute(*args)
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1693, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql 'select * from d where A=1': no such table: d
+{"time": "2021-04-21 15:30:48","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "153", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:31:31","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:31:31","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "70", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 60, in execute_raw_query
+    self.cursor.execute(query)
+sqlite3.OperationalError: no such table: d
+{"time": "2021-04-21 15:31:31","file_name": "test_db.py", "function_name": "execute_query", "line_no": "94", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1681, in execute
+    cur.execute(*args, **kwargs)
+sqlite3.OperationalError: no such table: d
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 89, in execute_query
+    df = pd.read_sql_query(query, self.conn, index_col='index')
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 377, in read_sql_query
+    return pandas_sql.read_query(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1727, in read_query
+    cursor = self.execute(*args)
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1693, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql 'select * from d where A=1': no such table: d
+{"time": "2021-04-21 15:31:31","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:31:51","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample where A=1"}
+{"time": "2021-04-21 15:31:51","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "70", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 67, in execute_raw_query
+    logging.info("Queried Data from {}. Shape = {}".format(self.database_name,df.shape))
+NameError: name 'df' is not defined
+{"time": "2021-04-21 15:31:51","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample where A=1"}
+{"time": "2021-04-21 15:31:51","file_name": "test_db.py", "function_name": "execute_query", "line_no": "94", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 89, in execute_query
+    df = pd.read_sql_query(query, self.conn, index_col='index')
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 377, in read_sql_query
+    return pandas_sql.read_query(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 1743, in read_query
+    frame = _wrap_result(
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/io/sql.py", line 129, in _wrap_result
+    frame.set_index(index_col, inplace=True)
+  File "/Users/sarveshshah/opt/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 4551, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['index'] are in the columns"
+{"time": "2021-04-21 15:31:51","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:32:13","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:32:13","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "70", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 67, in execute_raw_query
+    logging.info("Queried Data from {}. Shape = {}".format(self.database_name,df.shape))
+NameError: name 'df' is not defined
+{"time": "2021-04-21 15:32:13","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:32:13","file_name": "test_db.py", "function_name": "execute_query", "line_no": "91", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = (78, 3)"}
+{"time": "2021-04-21 15:32:13","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:32:57","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:32:57","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "70", "level" : "ERROR", "message": "Something went wrong"}
+Traceback (most recent call last):
+  File "/Users/sarveshshah/GitHub/Sample Docs/test_db.py", line 67, in execute_raw_query
+    logging.info("Queried Data from {}. Shape = {}".format(self.database_name,data.shape))
+AttributeError: 'list' object has no attribute 'shape'
+{"time": "2021-04-21 15:32:57","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:32:57","file_name": "test_db.py", "function_name": "execute_query", "line_no": "91", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = (79, 3)"}
+{"time": "2021-04-21 15:32:57","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:33:10","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:33:10","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "67", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = 81"}
+{"time": "2021-04-21 15:33:10","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:33:10","file_name": "test_db.py", "function_name": "execute_query", "line_no": "91", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = (80, 3)"}
+{"time": "2021-04-21 15:33:10","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "SELECT name FROM sqlite_master WHERE type='table' AND name='sample_data';"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "BEGIN "}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (0,1,1,1)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (1,2,2,2)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (2,3,3,3)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (3,4,4,4)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (4,5,5,5)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (5,6,6,6)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (6,7,7,7)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "_execute_insert", "line_no": "1555", "level" : "INFO", "message": "INSERT INTO "sample_data" ("index","A","B","C") VALUES (7,8,8,8)"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "run_transaction", "line_no": "1668", "level" : "INFO", "message": "COMMIT"}
+{"time": "2021-04-21 15:33:22","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "60", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:33:22","file_name": "test_db.py", "function_name": "execute_raw_query", "line_no": "67", "level" : "INFO", "message": "Queried Data from test_db.db. Rows = 82"}
+{"time": "2021-04-21 15:33:22","file_name": "sql.py", "function_name": "execute", "line_no": "1681", "level" : "INFO", "message": "select * from sample_data where A=1"}
+{"time": "2021-04-21 15:33:22","file_name": "test_db.py", "function_name": "execute_query", "line_no": "91", "level" : "INFO", "message": "Queried Data from test_db.db. Shape = (81, 3)"}
+{"time": "2021-04-21 15:33:22","file_name": "test_db.py", "function_name": "close_sql_connection", "line_no": "149", "level" : "INFO", "message": "Connection closed"}

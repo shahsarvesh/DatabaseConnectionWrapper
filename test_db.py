@@ -1,5 +1,8 @@
 import sqlite3
 import pandas as pd
+import logger
+
+logging = logger.get_logger('logger', 'log.log')
 
 class DataBaseConnection():
     """
@@ -59,9 +62,12 @@ class DataBaseConnection():
             # Extract column names from cursor attributes
             column_names = tuple(map(lambda x: x[0], self.cursor.description))
             data.insert(0, column_names)
-            self.conn.set_trace_callback(print)
+            # Create a log traceback for query information
+            self.conn.set_trace_callback(logging.info)
+            logging.info("Queried Data from {}. Rows = {}".format(self.database_name,len(data)))
             return data
         except:
+            logging.exception('Something went wrong')
             return None
 
     def execute_query(self, query):
@@ -79,10 +85,13 @@ class DataBaseConnection():
             Output of SQL query as a DataFrame
         """
         try:
+            # Read SQL Queries
             df = pd.read_sql_query(query, self.conn, index_col='index')
-            self.conn.set_trace_callback(print)
+            self.conn.set_trace_callback(logging.info)
+            logging.info("Queried Data from {}. Shape = {}".format(self.database_name,df.shape))
             return df
         except:
+            logging.exception('Something went wrong')
             return None
 
     def create_table_from_data(self, data, table_name):
@@ -103,10 +112,12 @@ class DataBaseConnection():
             Status code, 0 for success and -1 for failure
         """
         try:
+            # Send the data to SQL
             data.to_sql(table_name, con = self.conn, if_exists = 'append')
-            self.conn.set_trace_callback(print)
+            self.conn.set_trace_callback(logging.info)
             return 0
         except:
+            logging.exception('Something went wrong')
             return -1
 
     def get_tables_from_data(self):
@@ -123,17 +134,19 @@ class DataBaseConnection():
             List of table names
         """
         try:
+            # Execute query
             self.cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-            self.conn.set_trace_callback(print)
+            self.conn.set_trace_callback(logging.info)
             return self.cursor.fetchall()
         except:
+            logging.exception('Something went wrong')
             return None
 
     def close_sql_connection(self):
         """
         Close connection object 
         """
-        self.conn.set_trace_callback(print)
+        logging.info('Connection closed')
         self.conn.close()
 
     def __repr__(self):

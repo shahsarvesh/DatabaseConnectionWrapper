@@ -25,17 +25,20 @@ class DataBaseConnection():
 
     Methods:
     --------
-    execute_raw_query(query)
+    execute_query(query, return_results=False)
         Executes a query and returns list of tuples 
 
-    execute_query(query)
-        Executes a query and returns list of tuples
+    execute_query_to_dataframe(query)
+        Executes a query and returns a dataframe object
 
     create_table_from_data(data, table_name)
         Create a database table from DataFrame
 
-    get_tables_from_data()
+    get_all_tables_from_database()
         Returns a list of tables from SQL DB
+    
+    close_sql_connection()
+        Close connection object 
     """
 
 
@@ -83,7 +86,7 @@ class DataBaseConnection():
 
     def execute_query_to_dataframe(self, query):
         """
-        Executes a query and returns list of tuples 
+        Executes a query and returns a dataframe object
 
         Parameters:
         -----------
@@ -132,7 +135,7 @@ class DataBaseConnection():
             logging.exception('Something went wrong')
             return -1
 
-    def get_tables_from_data(self):
+    def get_all_tables_from_database(self):
         """
         Returns a list of tables from SQL DB
 

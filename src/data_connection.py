@@ -1,8 +1,11 @@
 import sqlite3
 import pandas as pd
-import logger
 
-logging = logger.get_logger(__name__, 'log.log')
+import os
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+
+import logger
+logging = logger.get_logger('logger', 'log.log')
 
 class DataBaseConnection():
     """
@@ -35,12 +38,13 @@ class DataBaseConnection():
         Returns a list of tables from SQL DB
     """
 
+
     # Initialize contructor 
     def __init__(self, database_name):
         self.database_name = database_name
         self.conn = sqlite3.connect(self.database_name)
         self.cursor = self.conn.cursor()
-        
+
     def execute_raw_query(self, query):
         """
         Executes a query and returns list of tuples 
@@ -115,6 +119,7 @@ class DataBaseConnection():
             # Send the data to SQL
             data.to_sql(table_name, con = self.conn, if_exists = 'append')
             self.conn.set_trace_callback(logging.info)
+            logging.info('Successfully created a table in {}'.format(self.database_name))
             return 0
         except:
             logging.exception('Something went wrong')
@@ -155,14 +160,16 @@ class DataBaseConnection():
 def main():
 
     # Create a new database connection
-    database_name = 'test_db.db'
+    database_name = cur_dir+'/../data/test_db.db'
     data_conn = DataBaseConnection(database_name)
 
-    # Get list of exisiting data in database
+    print(data_conn)
+    # # Get list of exisiting data in database
     print(data_conn.get_tables_from_data())
 
     # Add a new table to database from csv/xlsx using Pandas
-    df = pd.read_csv('sample.csv') # Read the dataframe
+    df = pd.read_csv(cur_dir+'/../data/sample.csv') # Read the dataframe
+    print(df)
 
     # Use the function and assign it a table name
     data_conn.create_table_from_data(df, table_name = 'sample_data')

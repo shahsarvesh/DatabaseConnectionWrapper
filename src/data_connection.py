@@ -25,17 +25,20 @@ class DataBaseConnection():
 
     Methods:
     --------
-    execute_raw_query(query)
+    execute_query(query, return_results=False)
         Executes a query and returns list of tuples 
 
-    execute_query(query)
-        Executes a query and returns list of tuples
+    execute_query_to_dataframe(query)
+        Executes a query and returns a dataframe object
 
     create_table_from_data(data, table_name)
         Create a database table from DataFrame
 
-    get_tables_from_data()
+    get_all_tables_from_database()
         Returns a list of tables from SQL DB
+    
+    close_sql_connection()
+        Close connection object 
     """
 
 
@@ -45,14 +48,18 @@ class DataBaseConnection():
         self.conn = sqlite3.connect(self.database_name)
         self.cursor = self.conn.cursor()
 
-    def execute_raw_query(self, query):
+    def execute_query(self, query, return_results=False):
         """
+        # TODO:
         Executes a query and returns list of tuples 
 
         Parameters:
         -----------
         query: str
             A SQL query 
+        
+        return_results: bool, default = False
+            A bool to dictate return type, set to True if extracting data from database 
         
         Returns:
         --------
@@ -62,21 +69,24 @@ class DataBaseConnection():
         try:
             # Execute query and fetch all the rows 
             self.cursor.execute(query)
-            data = self.cursor.fetchall()
-            # Extract column names from cursor attributes
-            column_names = tuple(map(lambda x: x[0], self.cursor.description))
-            data.insert(0, column_names)
-            # Create a log traceback for query information
-            self.conn.set_trace_callback(logging.info)
-            logging.info("Queried Data from {}. Rows = {}".format(self.database_name,len(data)))
-            return data
+            if return_results:
+                data = self.cursor.fetchall()
+                # Extract column names from cursor attributes
+                column_names = tuple(map(lambda x: x[0], self.cursor.description))
+                data.insert(0, column_names)
+                # Create a log traceback for query information
+                self.conn.set_trace_callback(logging.info)
+                logging.info("Queried Data from {}. Rows = {}".format(self.database_name,len(data)))
+                return data
+            else:
+                return None
         except:
             logging.exception('Something went wrong')
             return None
 
-    def execute_query(self, query):
+    def execute_query_to_dataframe(self, query):
         """
-        Executes a query and returns list of tuples 
+        Executes a query and returns a dataframe object
 
         Parameters:
         -----------
@@ -125,7 +135,7 @@ class DataBaseConnection():
             logging.exception('Something went wrong')
             return -1
 
-    def get_tables_from_data(self):
+    def get_all_tables_from_database(self):
         """
         Returns a list of tables from SQL DB
 
@@ -177,12 +187,12 @@ def main():
     # Pass a query to function
     query = "select * from sample_data where A=1"
 
-    # Run a custom query against the database
-    data = data_conn.execute_raw_query(query)
+    # Run a custom query against the database, default return None
+    data = data_conn.execute_query(query)
     # print(data) # print the data 
 
     # Run a custom query and get output as dataframe
-    dataframe = data_conn.execute_query(query)
+    dataframe = data_conn.execute_query_to_dataframe(query)
     # print(dataframe)
 
     data_conn.close_sql_connection()
